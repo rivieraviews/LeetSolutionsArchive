@@ -21,6 +21,7 @@ A solutions archive.
 | ------- |
 | [0001-two-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0011-container-with-most-water) |
+| [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
 ## Two Pointers
 |  |
 | ------- |
@@ -29,4 +30,12 @@ A solutions archive.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0011-container-with-most-water) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
