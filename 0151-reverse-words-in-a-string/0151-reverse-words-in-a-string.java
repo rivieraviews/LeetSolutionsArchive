@@ -2,20 +2,21 @@ class Solution {
     public String reverseWords(String s) {
         //reverse word using stack approach
 
-        String currentWord = "";
-        Stack<String> reversed = new Stack<>();
+        StringBuilder currentWord = new StringBuilder();
+        Stack<StringBuilder> reversed = new Stack<>();
+
         for (int i = 0; i < s.length(); i++)
         {
             if (s.charAt(i) != ' ')
             {
-                currentWord += s.charAt(i);
+                currentWord.append(s.charAt(i));
             }
             else
             {
                 if (!currentWord.isEmpty())
                 {
-                    reversed.push(currentWord);
-                    currentWord = "";
+                    reversed.push(new StringBuilder(currentWord));
+                    currentWord.setLength(0);
                 }
             }
         }
@@ -23,14 +24,15 @@ class Solution {
         if (!currentWord.isEmpty())
             reversed.push(currentWord);
 
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         while (!reversed.isEmpty())
         {
-            result += reversed.pop();
-            result += " ";
+            result.append(reversed.pop());
+            if (!reversed.isEmpty())
+                result.append(" ");
         }
 
-        return result.trim();
+        return result.toString();
     }
 }
