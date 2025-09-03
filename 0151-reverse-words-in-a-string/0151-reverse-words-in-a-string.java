@@ -1,38 +1,17 @@
 class Solution {
     public String reverseWords(String s) {
-        //reverse word using stack approach
+        String[] words = s.split("\\s+");
+        StringBuilder res = new StringBuilder();
 
-        StringBuilder currentWord = new StringBuilder();
-        Stack<StringBuilder> reversed = new Stack<>();
-
-        for (int i = 0; i < s.length(); i++)
+        for (int i = words.length - 1; i >= 0; i--)
         {
-            if (s.charAt(i) != ' ')
+            res.append(words[i]);
+            if (i !=0 )
             {
-                currentWord.append(s.charAt(i));
-            }
-            else
-            {
-                if (!currentWord.isEmpty())
-                {
-                    reversed.push(new StringBuilder(currentWord));
-                    currentWord.setLength(0);
-                }
+                res.append(" ");
             }
         }
 
-        if (!currentWord.isEmpty())
-            reversed.push(currentWord);
-
-        StringBuilder result = new StringBuilder();
-
-        while (!reversed.isEmpty())
-        {
-            result.append(reversed.pop());
-            if (!reversed.isEmpty())
-                result.append(" ");
-        }
-
-        return result.toString();
+        return res.toString().trim();
     }
 }
