@@ -6,18 +6,12 @@ class Solution {
 
         for (int i = 0; i < temperatures.length; i++)
         {
-            if (tempStack.isEmpty())
-                tempStack.push(i);
-            
-            else
-            {
                 while (!tempStack.isEmpty() && temperatures[i] > temperatures[tempStack.peek()])
                 {
                     diff[tempStack.peek()] = i - tempStack.peek();
                     tempStack.pop();
                 }
                 tempStack.push(i);
-            }
         }
 
         return diff;
