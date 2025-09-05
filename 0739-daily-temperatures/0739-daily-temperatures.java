@@ -5,18 +5,25 @@ class Solution {
         
         int[] res = new int[temperatures.length];
 
-        for (int i = temperatures.length - 1; i >= 0; --i) {
-            if (deque.isEmpty()) {
+        for (int i = temperatures.length - 1; i >= 0; i--) 
+        {
+            if (deque.isEmpty()) 
+            {
                 deque.offerFirst(i);
-                res[i] = 0;
-            } else {
-                while (!deque.isEmpty() && temperatures[i] >= temperatures[deque.peekFirst()]) {
+            } 
+            else 
+            {
+                while (!deque.isEmpty() && temperatures[i] >= temperatures[deque.peekFirst()]) 
+                {
                     deque.pollFirst();
                 }
 
-                if (deque.isEmpty()) {
+                if (deque.isEmpty()) 
+                {
                     res[i] = 0;
-                } else {
+                } 
+                else 
+                {
                     res[i] = deque.peekFirst() - i;
                 }
 
