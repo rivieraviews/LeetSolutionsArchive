@@ -29,6 +29,7 @@ A solutions archive.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0011-container-with-most-water) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0151-reverse-words-in-a-string](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0151-reverse-words-in-a-string) |
 ## Greedy
 |  |
@@ -65,6 +66,7 @@ A solutions archive.
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
