@@ -13,39 +13,49 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        //start
-        //iterative solution
+        // //start
+        // //iterative solution
 
-        if (head == null || head.next == null) //if empty list, or if list just has one node
-        {
+        // if (head == null || head.next == null) //if empty list, or if list just has one node
+        // {
+        //     return head;
+        // }
+
+        // //iteratively, we have 3-pointer approach.
+        // //start, current, next
+
+        // /*
+        //     a b c d
+        //     reversed - d c b a
+        // */
+
+        // ListNode prevNode = null;
+        // ListNode currentNode = head;
+        // ListNode nextNode = null;
+
+        // while (currentNode != null)
+        // {
+        //     //what do i need to NOT LOSE?
+        //     nextNode = currentNode.next;
+
+        //     //what do i need to DO? -> REVERSE!
+        //     currentNode.next = prevNode;
+
+        //     //how do we move forward? 
+        //     prevNode = currentNode;
+        //     currentNode = nextNode;
+        // }
+
+        // return prevNode; //since prev is now pointing to new head (old tail)
+
+        if (head == null || head.next == null)
             return head;
-        }
 
-        //iteratively, we have 3-pointer approach.
-        //start, current, next
+        ListNode newHead = reverseList(head.next);
 
-        /*
-            a b c d
-            reversed - d c b a
-        */
+        head.next.next = head;
+        head.next = null;
 
-        ListNode prevNode = null;
-        ListNode currentNode = head;
-        ListNode nextNode = null;
-
-        while (currentNode != null)
-        {
-            //what do i need to NOT LOSE?
-            nextNode = currentNode.next;
-
-            //what do i need to DO? -> REVERSE!
-            currentNode.next = prevNode;
-
-            //how do we move forward? 
-            prevNode = currentNode;
-            currentNode = nextNode;
-        }
-
-        return prevNode; //since prev is now pointing to new head (old tail)
+        return newHead;
     }
 }
