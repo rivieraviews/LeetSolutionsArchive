@@ -1,8 +1,7 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         
-        int n = nums.length;
-        int[] right = new int[n];
+        int n = nums.length, temp = 1;
         int[] products = new int[n];
         for (int i=0; i<n; i++)
         {
@@ -20,17 +19,14 @@ class Solution {
         {
             if (i == (n-1))
             {
-                right[i] = 1;
+                temp = 1;
             }
             else
             {
-                right[i] = right[i+1] * nums[i+1];
+                temp *= nums[i+1];
             }
-        }
 
-        for (int i = 0; i<n; i++)
-        {
-            products[i] = products[i] * right[i];
+            products[i] *= temp;
         }
 
         return products;
