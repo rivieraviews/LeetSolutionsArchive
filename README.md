@@ -26,6 +26,7 @@ A solutions archive.
 | [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
 | [0739-daily-temperatures](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0739-daily-temperatures) |
 ## Two Pointers
 |  |
@@ -83,4 +84,8 @@ A solutions archive.
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0053-maximum-subarray) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
