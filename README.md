@@ -9,6 +9,7 @@ A solutions archive.
 | [0001-two-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
+| [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
@@ -16,6 +17,7 @@ A solutions archive.
 | [0020-valid-parentheses](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
@@ -93,4 +95,8 @@ A solutions archive.
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
