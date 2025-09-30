@@ -1,17 +1,32 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
+
         HashMap<String, List<String>> anagrams = new HashMap<>();
+
         for (String s : strs)
         {
-            char[] ch = s.toCharArray(); //taking out eat as e,a,t
-            Arrays.sort(ch); //sorting e,a,t to a,e,t
-            //now store this as a key
-            String key = new String(ch);
-            if (!anagrams.containsKey(key)) //does not contain our aet key
+            int[] count = new int[26];
+
+            for (char c : s.toCharArray())
             {
-                anagrams.put(key, new ArrayList<>()); //because our new anagram is currently not linked to anything
+                count[c - 'a']++; //counting freq of each letter
             }
-            anagrams.get(key).add(s); //adding eat value to aet key
+
+            StringBuilder sb = new StringBuilder();
+
+            for (int num : count)
+            {
+                sb.append(num).append("#");
+            }
+
+            String key = sb.toString();
+
+            if (!anagrams.containsKey(key))
+            {
+                anagrams.put(key, new ArrayList<>());
+            }
+
+            anagrams.get(key).add(s);
         }
 
         return new ArrayList<>(anagrams.values());
