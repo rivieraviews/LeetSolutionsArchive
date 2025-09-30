@@ -8,6 +8,7 @@ A solutions archive.
 | ------- |
 | [0001-two-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 ## String
@@ -15,6 +16,7 @@ A solutions archive.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
@@ -29,6 +31,7 @@ A solutions archive.
 | [0001-two-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0011-container-with-most-water) |
 | [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0152-maximum-product-subarray) |
@@ -98,5 +101,6 @@ A solutions archive.
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
