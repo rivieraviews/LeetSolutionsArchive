@@ -10,6 +10,7 @@ A solutions archive.
 | [0003-longest-substring-without-repeating-characters](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 | [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
@@ -36,6 +37,7 @@ A solutions archive.
 | [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0128-longest-consecutive-sequence) |
 | [0152-maximum-product-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
@@ -110,4 +112,8 @@ A solutions archive.
 | ------- |
 | [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
