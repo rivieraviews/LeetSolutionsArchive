@@ -11,6 +11,7 @@ A solutions archive.
 | [0049-group-anagrams](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
+| [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
 ## String
 |  |
@@ -37,6 +38,7 @@ A solutions archive.
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
+| [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
 | [0739-daily-temperatures](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0739-daily-temperatures) |
 ## Two Pointers
@@ -53,6 +55,7 @@ A solutions archive.
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0048-rotate-image) |
+| [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 ## Matrix
 |  |
 | ------- |
@@ -100,6 +103,7 @@ A solutions archive.
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0238-product-of-array-except-self) |
+| [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
 ## Sorting
 |  |
