@@ -14,6 +14,7 @@ A solutions archive.
 | [0242-valid-anagram](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0242-valid-anagram) |
 | [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## String
 |  |
 | ------- |
@@ -43,6 +44,7 @@ A solutions archive.
 | [0523-continuous-subarray-sum](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0560-subarray-sum-equals-k) |
 | [0739-daily-temperatures](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0739-daily-temperatures) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -87,6 +89,7 @@ A solutions archive.
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/0206-reverse-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rivieraviews/LeetSolutionsArchive/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
 | ------- |
