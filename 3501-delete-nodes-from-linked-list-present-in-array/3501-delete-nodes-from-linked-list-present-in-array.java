@@ -10,30 +10,35 @@
  */
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
-        HashSet<Integer> hash = new HashSet<>();
+        int maxim = -1;
 
-        for (int x : nums)
+        for (int n : nums)
         {
-            hash.add(x);
+            maxim = Math.max(maxim, n);
         }
 
-        while (head != null && hash.contains(head.val))
+        boolean[] freq = new boolean[maxim + 1];
+
+        for (int n : nums)
         {
+            freq[n] = true;
+        }
+
+        ListNode temp = new ListNode();
+        ListNode current = temp;
+
+        while (head != null)
+        {
+            if (head.val >= freq.length || freq[head.val] == false)
+            {
+                current.next = head;
+                current = current.next;
+            }
+
             head = head.next;
         }
 
-        ListNode current = head;
-
-        while (current != null && current.next != null)
-        {
-            while (current.next != null && hash.contains(current.next.val))
-            {
-                current.next = current.next.next;
-            }
-
-            current = current.next;
-        }
-
-        return head;
+        current.next = null;
+        return temp.next;
     }
 }
